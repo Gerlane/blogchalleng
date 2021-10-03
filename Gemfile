@@ -44,6 +44,8 @@ group :development do
   gem 'spring'
   # add rubocop 
   gem 'rubocop', '~> 1.22'
+  # add performance
+  gem 'rubocop-performance', '~> 1.11', '>= 1.11.5'
 end
 
 group :test do
