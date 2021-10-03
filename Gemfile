@@ -46,6 +46,8 @@ group :development do
   gem 'rubocop', '~> 1.22'
   # add performance
   gem 'rubocop-performance', '~> 1.11', '>= 1.11.5'
+  # add rubocop-rails
+  gem 'rubocop-rails', '~> 2.12', '>= 2.12.2'
 end
 
 group :test do
